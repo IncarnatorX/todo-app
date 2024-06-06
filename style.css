@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: IBM Plex Sans;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 1.5rem;
+  gap: 2rem;
+  max-height: 50vh; /* Change Made */
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem; /* Change Made */
+}
+
+.formList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+label {
+  font-weight: 600;
+}
+
+#input {
+  padding: 0.5rem;
+}
+
+#input:focus {
+  outline: none;
+}
+
+.btn {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem; /* Change Made */
+}
+
+#posts {
+  max-height: calc(50vh - 100px); /* Change Made */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex-wrap: wrap; /* Change Made */
+}
+
+.task-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  gap: 0.5rem;
+}
+
+p {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.icon {
+  cursor: pointer;
+}

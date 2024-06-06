@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/04cffdb82f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1>TODO APP</h1>
+    <div class="container">
+      <div class="left">
+        <form id="form" class="formList">
+          <label for="post">Jot down your tasks here</label>
+          <input
+            type="text"
+            name="post"
+            id="input"
+            placeholder="Enter your tasks...."
+          />
+          <div class="msg"></div>
+          <button class="btn" type="submit">Add to list</button>
+        </form>
+        <button class="btn clear">Clear all tasks</button>
+      </div>
+      <div class="right">
+        <h3>Your tasks</h3>
+        <div id="posts">
+          <!-- <p>TODO LIST 1</p>
+          <div class="icons">
+            <i class="fa-solid fa-pen-to-square icon"></i>
+            <i class="fa-solid fa-trash icon"></i>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
